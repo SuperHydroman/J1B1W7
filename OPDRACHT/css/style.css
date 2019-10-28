@@ -1,0 +1,109 @@
+html, body {
+    margin: 0px;
+    padding: 0px;
+}
+
+* {
+    font-family: 'Lato', sans-serif;
+    font-size: 14px;
+    line-height: 20px;
+}
+
+#container {
+    width: 1100px;
+    margin: 0 auto;
+}
+
+#contentBox {
+    width: 1100px;
+    background: url("../img/banner_bg.png") repeat-x;
+    display: grid;
+    grid-template-columns: 670px 370px;
+    color: white;
+}
+
+#slidersBox {
+    display: grid;
+    padding-top: 25px;
+    grid-template-columns: auto auto auto;
+    grid-template-rows: auto;
+    grid-gap: 20px;
+}
+#slidersBox>div {
+    width: 320px;
+}
+
+#header {
+    background: url("../img/header_bg.png") repeat-x;
+}
+
+img[src="../img/logo.png"] {
+    padding-top: 10px;
+    padding-left: 20px;
+}
+
+img[src="../img/banner.jpg"] {
+    padding: 50px 0px 80px 50px;
+    width: 590px;
+}
+
+img[src="../img/lamborghini.jpg"] {
+    margin: 35px 0px 80px 35px;
+    width: 500px;
+    border: 10px solid #e6e6e6;
+    border-radius: 10px;
+}
+
+img[src="../img/cat.jpeg"] {
+    width: 300px;
+    margin: 35px 0px 80px 170px;
+    border: 10px solid #e6e6e6;
+    border-radius: 10px;
+}
+
+img[src="../img/lamborghini_2.jpg"], img[src="../img/mcLaren.jpg"], img[src="../img/ferrari.jpg"], img[src="../img/unicorn.jpg"], img[src="../img/llama.png"], img[src="../img/redBlack.jpg"] {
+    width: 300px;
+    border: 10px solid #e6e6e6;
+    border-radius: 10px;
+}
+
+ul {
+    display: inline;
+    position: absolute;
+    top: 3.5%;
+    right: 26%;
+}
+
+ul>li {
+    display: inline-block;
+    padding: 0px 15px;
+}
+
+h1 {
+    font-size: 26px;
+    line-height: 30px;
+}
+
+h3 {
+    font-size: 20px;
+    line-height: 22px;
+}
+
+footer {
+    background: url("../img/footer_bg.png") repeat-x;
+    color: white;
+    margin-top: 25px;
+    padding: 10px;
+    text-align: center;
+}
+
+a {
+     text-decoration: none;
+     color: black;
+}
+
+a:hover {
+     color: red;
+ }
+
+
